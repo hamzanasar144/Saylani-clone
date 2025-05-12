@@ -1,3 +1,33 @@
+body{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.bot{
+  background-color: #0D6EFD;
+  color: white;
+  font-size: 11px;
+  border: none;
+  border-radius: 2px;
+}
+.boot{
+  background-color: #8DC63F;
+  color: white;
+  font-size: 11px;
+  border: none;
+  border-radius: 2px;
+}
+.bet:hover{
+  background-color: #8DC63F;
+  border-radius: 2px;
+  border: 2px solid #007bff;
+}
+.bet{
+  background-color: #007bff;
+  border-radius: 2px;
+  border: 2px solid #8DC63F;
+  color: #EEEEEE;
+
+}
 .main{
     display: flex;
     justify-content: space-around;
@@ -5,8 +35,203 @@
 .list ul{
     display: flex;
     list-style: none;
-    gap: 14px;
+    gap: 24px;
+    align-items: center;
 }
 .logo img{
-    width: 148px;
+    width: 188px;
 }
+.line{
+    display: flex;
+    align-items: center;
+}
+.line ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.line img {
+    width: 30px ;
+
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding-left: 60px;
+    padding-right: 40px; */
+    gap: 300px;
+    background: #EEEEEE;
+    height: 10vh;
+    
+}
+.imm img {
+    width: 500px;
+}
+.con{
+    display: flex;
+    padding-left: 122px;
+    padding-right: 122px;
+    
+}
+.head{
+    text-align: left;
+    padding-top: 90px;
+}
+.head h1{
+    font-size: 40px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 600;
+}
+.head h2{
+    font-size: 24px;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+}
+.head h1 span{
+    color: #8DC63F;
+}
+.head h2 span {
+    color: #0D6DB7;
+}
+.head h3 {
+    font-size: 16px;
+    color: #5a5a5a;
+    font-family:"Space Grotesk", sans-serif ;
+    line-height: 24px;
+    font-weight: 400;
+}
+.we {
+    font-size: 32px;
+    font-family:"Space Grotesk", sans-serif  ;
+    text-align: center;
+}
+.personal{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.personal li{
+  
+    padding : 30px;
+    border: 20px solid whitesmoke;
+    border-radius: 5px;
+    align-items: center;
+    width: 217px;
+}
+
+.cooo{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+    
+  }
+  
+  .service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px; /* Equal width */
+  background-color: #EEEEEE;
+    padding: 30px;
+}
+  
+  .service-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    margin: 0;
+    font-size: 14px;
+  }
+  .imge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    
+  }
+  .imge img{
+    width: 90%;
+    height: 70vh;
+  }
+  .oper img{
+    width: 380px;
+    height: 260px;
+  }
+  .image-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    /* padding-left: 40px; */
+    margin: 0;
+    padding: 0;
+   
+  }
+
+  .image-container img {
+    width: 380px;
+    height: 250px;
+    display: block;
+    border-radius: 8px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    filter: brightness(40%);
+
+  }
+  
+
+  .van{
+    display: flex;
+    padding: 0  40px 0;
+    padding-top: 40px;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .overlay-text {
+    position: absolute;
+    bottom: 40px;
+    left: 5px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .overlay-button {
+    position: absolute;
+    bottom: 10px;
+    left: 7px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 365px;
+    border: none;
+    border-radius: 4px;
+    background-color: #90d62d;
+    filter: brightness(100%);
+    
+  }
+  
+
+  .image-container img:hover{
+    filter: brightness(90%);
+    transition: 200ms ease-in;
+  }
+  .image-container:hover{
+    filter: brightness(70%);
+    transition: 200ms ease-in;
+  }
